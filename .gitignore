@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Local enquiry data + secrets (never commit)
+backend/enquiries.json
+.env
+.env.*
+*.log
+
+# Token/credential files (never commit)
+*token*
+*secret*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
