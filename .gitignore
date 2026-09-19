@@ -15,3 +15,5 @@ backend/enquiries.json
 .DS_Store
 Thumbs.db
 .vscode/
+
+.vercel
