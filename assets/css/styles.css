@@ -145,8 +145,10 @@ footer a{color:#e8e6d8;text-decoration:none} footer a:hover{color:var(--gold-500
   .plan h2,.plan h3,.plan p{overflow-wrap:anywhere}
   .plan .btn{width:100%;max-width:100%;white-space:normal;text-align:center}
   .hero-card,.trainer-photo,.strip,img{max-width:100%}
-  .hero-grid{padding:2rem 0}
+  .header-inner{padding-top:.8rem;padding-bottom:.8rem}
+  .hero-grid{padding-top:2rem;padding-bottom:2rem}
   .hero-photo{padding:1.5rem;min-height:0}
+  .wrap.header-inner,.wrap.hero-grid,.wrap.footer-grid,.wrap.footer-bottom{padding-left:max(1rem,env(safe-area-inset-left));padding-right:max(1rem,env(safe-area-inset-right))}
   .strip{padding:1.5rem 1.1rem}
   .strip .btn{justify-self:stretch}
 }
