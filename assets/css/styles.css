@@ -134,21 +134,28 @@ footer a{color:#e8e6d8;text-decoration:none} footer a:hover{color:var(--gold-500
 @media(min-width:800px){.strip{grid-template-columns:2fr 1fr}}
 .strip .btn{justify-self:start}
 .placeholder-note{background:var(--gold-100);border:1px dashed var(--gold-600);border-radius:10px;padding:.6rem .9rem;font-size:.85rem;color:var(--olive-800)}
-/* Mobile-only: balanced side padding + responsive plan cards, no overflow. Desktop untouched. */
+/* Mobile-only: roomier side padding + vertical rhythm, no overflow. Desktop untouched. */
 @media(max-width:699px){
-  .wrap{padding-left:1rem;padding-right:1rem}
-  section{padding:2.25rem 0}
-  .grid{gap:1rem}
-  .card.plan{width:100%;max-width:440px;margin-inline:auto;padding:1.1rem;overflow:hidden}
+  .wrap{padding-left:1.25rem;padding-right:1.25rem}
+  section{padding:3rem 0}
+  .grid{gap:1.25rem}
+  .slider{gap:1.25rem}
+  .card{padding:1.5rem}
+  .card.plan{width:100%;max-width:440px;margin-inline:auto;margin-bottom:.25rem;padding:1.5rem;overflow:hidden}
   .plan .price{font-size:1.6rem}
   .plan ul{padding-left:1.1rem;margin:.5rem 0 1rem}
   .plan h2,.plan h3,.plan p{overflow-wrap:anywhere}
   .plan .btn{width:100%;max-width:100%;white-space:normal;text-align:center}
   .hero-card,.trainer-photo,.strip,img{max-width:100%}
-  .header-inner{padding-top:.8rem;padding-bottom:.8rem}
-  .hero-grid{padding-top:2rem;padding-bottom:2rem}
-  .hero-photo{padding:1.5rem;min-height:0}
-  .wrap.header-inner,.wrap.hero-grid,.wrap.footer-grid,.wrap.footer-bottom{padding-left:max(1rem,env(safe-area-inset-left));padding-right:max(1rem,env(safe-area-inset-right))}
-  .strip{padding:1.5rem 1.1rem}
+  .header-inner{padding-top:.9rem;padding-bottom:.9rem}
+  .hero-grid{gap:2.25rem;padding-top:2.5rem;padding-bottom:2.5rem}
+  .hero-photo{padding:1.75rem;min-height:0}
+  .cta-row{gap:.85rem;margin-top:1.65rem}
+  .trust-row{gap:.75rem;margin-top:1.45rem}
+  .wrap.header-inner,.wrap.hero-grid,.wrap.footer-grid,.wrap.footer-bottom{padding-left:max(1.25rem,env(safe-area-inset-left));padding-right:max(1.25rem,env(safe-area-inset-right))}
+  .strip{gap:1.25rem;padding:2rem 1.5rem}
   .strip .btn{justify-self:stretch}
+  .footer-grid{gap:2rem;padding:3rem 0}
+  details.faq{padding:1.25rem 1.4rem;margin:.8rem 0}
+  form.enquiry{padding:2rem 1.5rem}
 }
